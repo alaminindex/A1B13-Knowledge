@@ -9,7 +9,7 @@ body {
   height: auto;
   font-family: Arial, sans-serif;
   /* line-height: 1.6; */
-  background-color: #ffffff;
+  background-color: #a3f1d4;
   /* color: #000000; */
   margin: 0 auto;
   /* font family */
@@ -204,4 +204,82 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card h3 {
+  font-size: 25px;
+}
+.card p {
+  font-size: 14px;
+  color: #454546;
+  font-weight: 300;
+}
+
+/* brain-section */
+.brain-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 0;
+  /* background-color: aqua; */
+  margin: 0 auto;
+}
+
+.brain-section-img {
+  width: 750px;
+  height: auto;
+}
+
+/* brain-text-container */
+.brain-text-container {
+  /* width: 500px; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  min-height:70vh;
+  justify-content:space-evenly;
+}
+
+#brain-text-container-p {
+  font-size: 25px;
+  color: #2eaa65;
+  font-weight: 500;
+}
+
+.brain-text-container h1 {
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.brain-text-container p {
+  font-size: 18px;
+  color: #454546;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+/* brain-chakemark */
+.brain-chakemark {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* brain-ck */
+.brain-ck {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brain-ck p {
+  font-size: 18px;
+  color: #454546;
+  font-weight: 500;
 }
